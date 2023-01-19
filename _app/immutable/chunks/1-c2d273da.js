@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="../favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-f0b944a8.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-0b554c11.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-bedcd23a.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-e0934410.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-dceb6d2b.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/devblog/_path_/_page.svelte-3ec0b9df.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/devblog/_path_/_page.js-c054b441.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-b70f104e.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-  </style><!-- HEAD_svelte-1lc4dl3_END -->
-	</head>
-	<body>
-		<div style="display: contents">
-
-
-
-
-<nav><ul><li><a href="/">Hem</a></li>
-    <li><a href="/devblog">Blog</a></li></ul></nav>
-
-<main class="container-fluid svelte-k6w7aq"><hr>
-
-  <main class="container">
-
-
-<article><h1>Ändringar lektion 1</h1>
-  <p>Published: 2023-01-12</p>
-  <p><strong>Jag har ändrat bakgrundsbilden på clicker dvs cookien.</strong></p>
-<p>Detta gjorde jag genom att ändra url:en till en egen url.</p>
-<p>Se kod nedan.</p>
-<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css"><span class="token selector">.clicker</span> <span class="token punctuation">&#123;</span>
+import{S as mn,i as yn,s as vn,k as p,q as c,a as u,l as e,m as o,r,h as a,c as i,n as X,b as t,E as l,B as Y}from"./index-bedcd23a.js";function _n(cn){let k,h,M,D,v,z,J,_,C,R,d,un=`<code class="language-css"><span class="token selector">.clicker</span> <span class="token punctuation">&#123;</span>
     <span class="token property">clip-path</span><span class="token punctuation">:</span> <span class="token function">square</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
     <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
@@ -51,13 +9,7 @@
     <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"https://mrplant.se/images/products/medium/5744-10.jpg"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
     <span class="token property">background-size</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span>
     <span class="token property">background-position</span><span class="token punctuation">:</span> 0px -100px<span class="token punctuation">;</span>
-  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<p><strong>Jag har ändrat clickern till en rektangel/kvadrat.</strong></p>
-<p>Detta gjorde jag genom att ändra clip-path:en till en square:
-Se kod ovan.</p>
-<p><strong>Jag har ändrat upgrade bakgrundsbilden</strong>
-Detta gjorde jag genom att ändra url:en till en egen url.</p>
-<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css">  <span class="token selector">.upgrade</span> <span class="token punctuation">&#123;</span>
+  <span class="token punctuation">&#125;</span></code>`,T,b,x,F,q,j,B,G,g,P,W,A,N,f,rn=`<code class="language-css">  <span class="token selector">.upgrade</span> <span class="token punctuation">&#123;</span>
     <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
     <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
     <span class="token property">border</span><span class="token punctuation">:</span> 4px solid <span class="token function">rgb</span><span class="token punctuation">(</span>60<span class="token punctuation">,</span> 255<span class="token punctuation">,</span> 39<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -68,33 +20,14 @@ Detta gjorde jag genom att ändra url:en till en egen url.</p>
     <span class="token property">place-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
     <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
     <span class="token property">flex-direction</span><span class="token punctuation">:</span> column<span class="token punctuation">;</span>
-  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
-<p><strong>Jag har också lagt till en till upgrade</strong>
-Det var väldigt enkelt och jag gjorde det genom att bara kopiera, ändra kostnaden och öka multiplier.</p>
-<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css"><span class="token selector">let upgrades = [</span>
+  <span class="token punctuation">&#125;</span></code>`,O,m,S,I,K,H,y,kn=`<code class="language-css"><span class="token selector">let upgrades = [</span>
     <span class="token punctuation">&#123;</span> <span class="token property">cost</span><span class="token punctuation">:</span> 15<span class="token punctuation">,</span> <span class="token property">name</span><span class="token punctuation">:</span> <span class="token string">"Doubler"</span><span class="token punctuation">,</span> <span class="token property">multiplier</span><span class="token punctuation">:</span> 2<span class="token punctuation">,</span> <span class="token property">worker</span><span class="token punctuation">:</span> 0 <span class="token punctuation">&#125;</span><span class="token selector">,</span>
     <span class="token punctuation">&#123;</span> <span class="token property">cost</span><span class="token punctuation">:</span> 5<span class="token punctuation">,</span> <span class="token property">name</span><span class="token punctuation">:</span> <span class="token string">"Worker"</span><span class="token punctuation">,</span> <span class="token property">multiplier</span><span class="token punctuation">:</span> 0<span class="token punctuation">,</span> <span class="token property">worker</span><span class="token punctuation">:</span> 1 <span class="token punctuation">&#125;</span><span class="token selector">,</span>
     <span class="token punctuation">&#123;</span> <span class="token property">cost</span><span class="token punctuation">:</span> 1<span class="token punctuation">,</span> <span class="token property">name</span><span class="token punctuation">:</span> <span class="token string">"Cheat mode"</span><span class="token punctuation">,</span> <span class="token property">multiplier</span><span class="token punctuation">:</span> 10000<span class="token punctuation">,</span> <span class="token property">worker</span><span class="token punctuation">:</span> 0 <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
-  ]<span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
-<p><strong>Förutom allt detta har jag bara ändrat färgerna på upgrade</strong></p></article></main>
-</main>
-
-
-		<script type="module" data-sveltekit-hydrate="pjospm">
-			import { start } from "../_app/immutable/start-0b554c11.js";
-
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="pjospm"]').parentNode,
-				version: "1674127110142",
-				hydrate: {
-					node_ids: [0, 4],
-					data: [null,null],
-					form: null
-				}
-			});
-		</script>
-	</div>
-	</body>
-</html>
+  ]<span class="token punctuation">;</span></code>`,L,E,w,Q;return{c(){k=p("p"),h=p("strong"),M=c("Jag har ändrat bakgrundsbilden på clicker dvs cookien."),D=u(),v=p("p"),z=c("Detta gjorde jag genom att ändra url:en till en egen url."),J=u(),_=p("p"),C=c("Se kod nedan."),R=u(),d=p("pre"),T=u(),b=p("p"),x=p("strong"),F=c("Jag har ändrat clickern till en rektangel/kvadrat."),q=u(),j=p("p"),B=c(`Detta gjorde jag genom att ändra clip-path:en till en square:
+Se kod ovan.`),G=u(),g=p("p"),P=p("strong"),W=c("Jag har ändrat upgrade bakgrundsbilden"),A=c(`
+Detta gjorde jag genom att ändra url:en till en egen url.`),N=u(),f=p("pre"),O=u(),m=p("p"),S=p("strong"),I=c("Jag har också lagt till en till upgrade"),K=c(`
+Det var väldigt enkelt och jag gjorde det genom att bara kopiera, ändra kostnaden och öka multiplier.`),H=u(),y=p("pre"),L=u(),E=p("p"),w=p("strong"),Q=c("Förutom allt detta har jag bara ändrat färgerna på upgrade"),this.h()},l(n){k=e(n,"P",{});var s=o(k);h=e(s,"STRONG",{});var Z=o(h);M=r(Z,"Jag har ändrat bakgrundsbilden på clicker dvs cookien."),Z.forEach(a),s.forEach(a),D=i(n),v=e(n,"P",{});var $=o(v);z=r($,"Detta gjorde jag genom att ändra url:en till en egen url."),$.forEach(a),J=i(n),_=e(n,"P",{});var nn=o(_);C=r(nn,"Se kod nedan."),nn.forEach(a),R=i(n),d=e(n,"PRE",{class:!0});var dn=o(d);dn.forEach(a),T=i(n),b=e(n,"P",{});var an=o(b);x=e(an,"STRONG",{});var sn=o(x);F=r(sn,"Jag har ändrat clickern till en rektangel/kvadrat."),sn.forEach(a),an.forEach(a),q=i(n),j=e(n,"P",{});var tn=o(j);B=r(tn,`Detta gjorde jag genom att ändra clip-path:en till en square:
+Se kod ovan.`),tn.forEach(a),G=i(n),g=e(n,"P",{});var U=o(g);P=e(U,"STRONG",{});var pn=o(P);W=r(pn,"Jag har ändrat upgrade bakgrundsbilden"),pn.forEach(a),A=r(U,`
+Detta gjorde jag genom att ändra url:en till en egen url.`),U.forEach(a),N=i(n),f=e(n,"PRE",{class:!0});var gn=o(f);gn.forEach(a),O=i(n),m=e(n,"P",{});var V=o(m);S=e(V,"STRONG",{});var en=o(S);I=r(en,"Jag har också lagt till en till upgrade"),en.forEach(a),K=r(V,`
+Det var väldigt enkelt och jag gjorde det genom att bara kopiera, ändra kostnaden och öka multiplier.`),V.forEach(a),H=i(n),y=e(n,"PRE",{class:!0});var fn=o(y);fn.forEach(a),L=i(n),E=e(n,"P",{});var on=o(E);w=e(on,"STRONG",{});var ln=o(w);Q=r(ln,"Förutom allt detta har jag bara ändrat färgerna på upgrade"),ln.forEach(a),on.forEach(a),this.h()},h(){X(d,"class","language-css"),X(f,"class","language-css"),X(y,"class","language-css")},m(n,s){t(n,k,s),l(k,h),l(h,M),t(n,D,s),t(n,v,s),l(v,z),t(n,J,s),t(n,_,s),l(_,C),t(n,R,s),t(n,d,s),d.innerHTML=un,t(n,T,s),t(n,b,s),l(b,x),l(x,F),t(n,q,s),t(n,j,s),l(j,B),t(n,G,s),t(n,g,s),l(g,P),l(P,W),l(g,A),t(n,N,s),t(n,f,s),f.innerHTML=rn,t(n,O,s),t(n,m,s),l(m,S),l(S,I),l(m,K),t(n,H,s),t(n,y,s),y.innerHTML=kn,t(n,L,s),t(n,E,s),l(E,w),l(w,Q)},p:Y,i:Y,o:Y,d(n){n&&a(k),n&&a(D),n&&a(v),n&&a(J),n&&a(_),n&&a(R),n&&a(d),n&&a(T),n&&a(b),n&&a(q),n&&a(j),n&&a(G),n&&a(g),n&&a(N),n&&a(f),n&&a(O),n&&a(m),n&&a(H),n&&a(y),n&&a(L),n&&a(E)}}}const jn={title:"Ändringar lektion 1",date:"2023-01-12"};class En extends mn{constructor(k){super(),yn(this,k,null,_n,vn,{})}}export{En as default,jn as metadata};

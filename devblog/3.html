@@ -5,18 +5,17 @@
 		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-8003c18b.css" rel="stylesheet">
-		<link href="../_app/immutable/assets/2-c12348e4.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-99fe7136.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-efcbbb00.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-08392291.js">
+		<link href="../_app/immutable/assets/_layout-f0b944a8.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-0b554c11.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-bedcd23a.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-e0934410.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper-41c905a7.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-f6925622.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-dceb6d2b.js">
 		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.js-9cbb603b.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/devblog/_path_/_page.svelte-8546fc33.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/devblog/_path_/_page.js-53688c44.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page-2e95bc42.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
+		<link rel="modulepreload" href="../_app/immutable/components/pages/devblog/_path_/_page.svelte-3ec0b9df.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/devblog/_path_/_page.js-c054b441.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-b70f104e.js"><!-- HEAD_svelte-1lc4dl3_START --><link rel="stylesheet" href="/pico.min.css"><style>nav {
       margin-left: 10%;
       margin-right: 10%;
     }
@@ -31,28 +30,58 @@
 <nav><ul><li><a href="/">Hem</a></li>
     <li><a href="/devblog">Blog</a></li></ul></nav>
 
-<main class="container-fluid"><hr>
+<main class="container-fluid svelte-k6w7aq"><hr>
 
   <main class="container">
 
 
-<article><h1>Post four</h1>
-  <p>Published: 2021-12-14</p>
-  <p>Hello, I am <em>Post One.</em></p>
-<p><strong>Nice to meet tjena!</strong></p>
-<p><strong>sick</strong></p>
-<h1>0</h1>
-<button>CLICK ME</button></article></main></main>
+<article><h1>Ändringar lektion 2</h1>
+  <p>Published: 2023-01-16</p>
+  <p><strong>Jag har ändrat snöbollen så att den passar in till cookien. Det gjorde jag genom att endaast ändra bakgrunds bilden och ändra positionen.
+Dessutom tog jag bort background size cover. Det gjorde jag eftersom bilden inte passade i lika bra</strong></p>
+<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css"><span class="token selector">.clicker</span> <span class="token punctuation">&#123;</span>
+    <span class="token property">clip-path</span><span class="token punctuation">:</span> <span class="token function">circle</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 25%<span class="token punctuation">;</span>
+    <span class="token property">flex-direction</span><span class="token punctuation">:</span> column<span class="token punctuation">;</span>
+    <span class="token property">place-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">place-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"https://pngimg.com/d/snowball_PNG6.png"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+    
+    <span class="token property">background-position</span><span class="token punctuation">:</span> -60px -17px<span class="token punctuation">;</span>
+  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p><strong>Jag har också ändrat bakgrunden på article, footer och header. Jag ändrade till samma snöbakgrund. Att ändra till detta var inte så svårt,
+det man behövde göra var att hitta “namnen” i sidan. Det gjorde vi genom det nya vackra verktyget vi har installerat.</strong></p>
+<pre class="language-css"><!-- HTML_TAG_START --><code class="language-css"><span class="token selector">article</span><span class="token punctuation">&#123;</span>
+    <span class="token property">background-size</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span>
+    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"https://media.tenor.com/27mSeF5fDXEAAAAd/snow-day.gif"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+
+  <span class="token punctuation">&#125;</span>
+
+  <span class="token selector">footer</span><span class="token punctuation">&#123;</span>
+    <span class="token property">background-size</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span>
+    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"https://media.tenor.com/27mSeF5fDXEAAAAd/snow-day.gif"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+
+  <span class="token punctuation">&#125;</span>
+
+  <span class="token selector">header</span><span class="token punctuation">&#123;</span>
+    <span class="token property">background-size</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span>
+    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"https://media.tenor.com/27mSeF5fDXEAAAAd/snow-day.gif"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+
+  <span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p><strong>Det sista jag gjorde var att ta bort onödiga “rader”. Raderna hette hr. Jag tog bort dessa rader ur koden.</strong></p></article></main>
+</main>
 
 
-		<script type="module" data-sveltekit-hydrate="1mltx3c">
-			import { start } from "../_app/immutable/start-99fe7136.js";
+		<script type="module" data-sveltekit-hydrate="1f73ns8">
+			import { start } from "../_app/immutable/start-0b554c11.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1mltx3c"]').parentNode,
-				version: "1673352893548",
+				target: document.querySelector('[data-sveltekit-hydrate="1f73ns8"]').parentNode,
+				version: "1674127110142",
 				hydrate: {
 					node_ids: [0, 4],
 					data: [null,null],
