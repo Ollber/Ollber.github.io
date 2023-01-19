@@ -27,3 +27,16 @@
     <slot />
   </main>
 </main>
+
+<style>
+
+.container-fluid {
+  background-size: cover;
+  background-image: url("https://media.tenor.com/27mSeF5fDXEAAAAd/snow-day.gif");
+
+}
+
+
+
+
+</style>

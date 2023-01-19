@@ -16,12 +16,32 @@ const config = {
 		extensions: ['.md', '.svx'],
 		layout: { blog: './src/routes/devblog/post.svelte' },
 	})],
+	
 
 	kit: {
 		adapter: adapter({
 			pages: 'docs',
 			assets: 'docs',
 		})
+		
+	},
+	vitePlugin: {
+		experimental: {
+	
+			inspector: {
+	
+				toggleKeyCombo: 'meta-shift',
+	
+				holdMode: true,
+	
+				showToggleButton: 'always',
+	
+				toggleButtonPos: 'bottom-right'
+	
+			}
+	
+		}
+	
 	},
 	extensions: ['.svelte', '.md', '.svx'],
 	remarkPlugins: [

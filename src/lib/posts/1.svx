@@ -1,20 +1,59 @@
 ---
-title: Post One
-date: "2021-12-14"
+title: Ändringar lektion 1
+date: "2023-01-12"
 ---
 
-<script>
- let a = 0;
-</script>
+**Jag har ändrat bakgrundsbilden på clicker dvs cookien.**
 
-Hello, I am _Post One._
+Detta gjorde jag genom att ändra url:en till en egen url.
 
-**Nice to meet you!**
+Se kod nedan.
 
-**sick**
+```css
+.clicker {
+    clip-path: square();
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    background-image: url("https://mrplant.se/images/products/medium/5744-10.jpg");
+    background-size: cover;
+    background-position: 0px -100px;
+  }
+```
 
-😀 😃 😄 😁 😆 😅 😂
+**Jag har ändrat clickern till en rektangel/kvadrat.**
 
-<h1>{a}</h1>
+Detta gjorde jag genom att ändra clip-path:en till en square:
+Se kod ovan.
 
-<button on:click={()=>{a = a + 1}}>CLICK ME</button>
+**Jag har ändrat upgrade bakgrundsbilden**
+Detta gjorde jag genom att ändra url:en till en egen url.
+```css
+  .upgrade {
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgb(60, 255, 39);
+    background-color: rgb(255, 4, 4);
+    background-size: cover;
+    background-image: url("https://wallpaperaccess.com/full/1474059.jpg");
+    place-items: center;
+    place-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+```
+
+**Jag har också lagt till en till upgrade**
+Det var väldigt enkelt och jag gjorde det genom att bara kopiera, ändra kostnaden och öka multiplier.
+```css
+let upgrades = [
+    { cost: 15, name: "Doubler", multiplier: 2, worker: 0 },
+    { cost: 5, name: "Worker", multiplier: 0, worker: 1 },
+    { cost: 1, name: "Cheat mode", multiplier: 10000, worker: 0 },
+  ];
+```
+**Förutom allt detta har jag bara ändrat färgerna på upgrade**
+

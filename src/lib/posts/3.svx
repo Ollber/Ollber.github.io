@@ -1,18 +1,49 @@
 ---
-title: Post four
-date: "2021-12-14"
+title: Ändringar lektion 2
+date: "2023-01-16"
 ---
 
-<script>
- let a = 0;
-</script>
+**Jag har ändrat snöbollen så att den passar in till cookien. Det gjorde jag genom att endaast ändra bakgrunds bilden och ändra positionen. 
+Dessutom tog jag bort background size cover. Det gjorde jag eftersom bilden inte passade i lika bra**
 
-Hello, I am _Post One._
-
-**Nice to meet tjena!**
-
-**sick**
+```css
+.clicker {
+    clip-path: circle();
+    display: flex;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    background-image: url("https://pngimg.com/d/snowball_PNG6.png");
     
-<h1>{a}</h1>
+    background-position: -60px -17px;
+  }
+```
 
-<button on:click={()=>{a = a + 1}}>CLICK ME</button>
+
+**Jag har också ändrat bakgrunden på article, footer och header. Jag ändrade till samma snöbakgrund. Att ändra till detta var inte så svårt, 
+det man behövde göra var att hitta "namnen" i sidan. Det gjorde vi genom det nya vackra verktyget vi har installerat.**
+
+```css
+article{
+    background-size: cover;
+    background-image: url("https://media.tenor.com/27mSeF5fDXEAAAAd/snow-day.gif");
+
+  }
+
+  footer{
+    background-size: cover;
+    background-image: url("https://media.tenor.com/27mSeF5fDXEAAAAd/snow-day.gif");
+
+  }
+
+  header{
+    background-size: cover;
+    background-image: url("https://media.tenor.com/27mSeF5fDXEAAAAd/snow-day.gif");
+
+  }
+```
+
+**Det sista jag gjorde var att ta bort onödiga "rader". Raderna hette hr. Jag tog bort dessa rader ur koden.**
+
